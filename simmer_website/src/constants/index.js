@@ -4,12 +4,20 @@ import Twitter from "../assets/Twitter.png";
 
 export const navLinks = [
   {
-    id: "contact-us",
-    title: "Contact us",
+    id: "home",
+    title: "Home",
   },
   {
-    id: "my-pantry",
-    title: "My pantry",
+    id: "recipe",
+    title: "Recipe",
+  },
+  {
+    id: "favorite",
+    title: "Favorite",
+  },
+  {
+    id: "contact-us",
+    title: "Contact Us",
   },
   
 ];

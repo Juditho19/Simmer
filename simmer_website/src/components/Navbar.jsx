@@ -77,7 +77,7 @@ const Navbar = () => {
                 {nav.title}
               </a>
 
-              <button></button>
+              
 
             </li>
           ))}
@@ -113,7 +113,6 @@ const Navbar = () => {
                   {nav.title}
                 </a>
 
-                <Button />
 
               </li>
             ))}
@@ -130,7 +129,7 @@ const Navbar = () => {
 
 
     </nav>
-    //njkkkknb
+    
 
     
   )

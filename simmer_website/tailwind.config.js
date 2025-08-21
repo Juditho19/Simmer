@@ -7,10 +7,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#F7EEDD",
-        secondary: "#B35E41",
+        primary: "linear-gradient(180deg, #FFFDF9 0%, #F2F6F1 100%);",
+        secondary: "#B35E42",
         dimSecondary: "rgba(179, 94, 65, 0.44)",
         green: "#24402D",
+        mutedGreen: "#333333"
       },
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],

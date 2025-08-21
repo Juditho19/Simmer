@@ -6,7 +6,7 @@ const SearchRecipe = () => {
     <div className="flex justify-center py-8">
       {/* serach container*/}
       {/* search input with icons */}
-      <div className="flex items-center bg-[#F7EEDD] border-4 border-[#B35E42] rounded-full px-4 py-3 w-full max-w-2xl">
+      <div className="flex items-center bg-white border-4 border-[#B35E42] rounded-full px-4 py-3 w-full max-w-2xl">
         <img 
             src={MagnifyingGlass} 
             alt="Search"

@@ -1,6 +1,7 @@
 import styles from "../style"
 import hero_image from "../assets/hero_image.png";
-import Button from './Button';
+import { Link } from 'react-router-dom';
+
 
 const Hero = () => (
     <section id="home" className={`flex md:flex-row 
@@ -36,20 +37,24 @@ const Hero = () => (
         </p>
 
         <div className="flex mt-5">
-
-          <button className={`py-4 px-6 bg-secondary
-            font-montserrat font-medium text-[18px] 
-            text-white outline-none rounded-full mr-5
-            ${styles}`}>
+          <a href="#search-recipes">
+            <button className={`py-4 px-6 bg-secondary
+              font-montserrat font-medium text-[18px] 
+              text-white outline-none rounded-full mr-5
+              ${styles}`}>
               Search Recipes
-          </button>
+            </button>
+          </a>
 
-          <button className={`py-4 px-6 bg-white
-            font-montserrat font-medium text-[18px] 
-            text-secondary outline-none rounded-full
-            ${styles}`}>
+          <a href="#contact-us">
+            <button className={`py-4 px-6 bg-white
+              font-montserrat font-medium text-[18px] 
+              text-secondary outline-none rounded-full
+              ${styles}`}>
               Submit a Recipe
-          </button>
+            </button>
+          </a>
+          
         </div>
         
       </div>

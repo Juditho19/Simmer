@@ -22,23 +22,6 @@ export const navLinks = [
   
 ];
 
-export const socialMedia = [
-  {
-    id: "social-media-1",
-    icon: Facebook,
-    link: "#",
-  },
-  {
-    id: "social-media-2",
-    icon: Instagram,
-    link: "#",
-  },
-  {
-    id: "social-media-3",
-    icon: Twitter,
-    link: "#",
-  },
-];
 
 
 

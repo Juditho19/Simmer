@@ -18,18 +18,18 @@
 //         </ul>
        
         
-//         <div className='flex justify-center flex-1 items-center'>
-//           <a href="/">
-//             <img src={headerLogo} width={109} height={109} alt=" Simmer Logo" />
-//           </a>
-//         </div>
+        // <div className='flex justify-center flex-1 items-center'>
+        //   <a href="/">
+        //     <img src={headerLogo} width={109} height={109} alt=" Simmer Logo" />
+        //   </a>
+        // </div>
 
-//         <ul className="flex gap-4 justify-end flex-1 items-center ">
-//           <li><a href="#"><img src={Facebook} alt="Facebook Logo" /></a></li>
-//           <li><a href="#"><img src={Instagram} alt="Instagram Logo" /></a></li>
-//           <li><a href="#"><img src={Twitter} alt="Twitter Logo" /></a></li>
-//           <li><a href="#"><button className="font-bold text-[#F7EEDD] bg-[#24402D] px-4 py-2 rounded-full ">Submit a Recipe</button></a></li>
-//         </ul>
+        // <ul className="flex gap-4 justify-end flex-1 items-center ">
+        //   <li><a href="#"><img src={Facebook} alt="Facebook Logo" /></a></li>
+        //   <li><a href="#"><img src={Instagram} alt="Instagram Logo" /></a></li>
+        //   <li><a href="#"><img src={Twitter} alt="Twitter Logo" /></a></li>
+        //   <li><a href="#"><button className="font-bold text-[#F7EEDD] bg-[#24402D] px-4 py-2 rounded-full ">Submit a Recipe</button></a></li>
+        // </ul>
 
 
 //       </nav>

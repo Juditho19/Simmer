@@ -1,14 +1,10 @@
 
 import styles from "./style";
+
 import {
     Navbar,
     Hero,
     SearchRecipe,
-    SelectRecipe,
-    MyPantryNav,
-    MyPantryHero,
-    NewIngredient,
-    IngredientList,
     ContactUs,
     Footer,
 
@@ -28,19 +24,18 @@ const App = () => (
       </div>
     </div>
     
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <SearchRecipe />
-        <SelectRecipe />
-        <MyPantryNav />
-        <MyPantryHero />
-        <NewIngredient />
-        <IngredientList />
-        <ContactUs />
-        <Footer />
-      </div>
+    
+    <div id="search-recipes" className={`${styles.boxWidth} bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+      <SearchRecipe />
+    </div>
+    <div id="contact-us" className={`${styles.boxWidth} bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+      <ContactUs />
+    </div>
+    <div className={`${styles.boxWidth} bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+      <Footer />
     </div>
   </div>
+  
 );
 
 export default App;

@@ -47,10 +47,19 @@ const SearchRecipe = () => {
 
   return(
     <section id='recipe' className={layout.section}>
+
+      
+      {/* <div className="flex flex items-start py-[6px] px-4 bg-dimSecondary rounded-[10px] mb-2">
+        <p className={`${styles.paragraph} ml-2 text-green`}>
+          What can I make with...?
+        </p>
+      </div> */}
+      
      {/* search bar */}
      <div className={`${styles.flexCenter} bg-white 
       py-4 px-2 rounded-full border-4 border-secondary
       w-full `}>
+        
       search bar
      </div>
     </section>

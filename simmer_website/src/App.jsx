@@ -19,19 +19,19 @@ const App = () => (
     </div>
 
     <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
+      <div id="home" className={`${styles.boxWidth}`}>
         <Hero />
       </div>
     </div>
     
     
-    <div id="search-recipes" className={`${styles.boxWidth} bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+    <div id="search-recipes" className={`${styles.boxWidth} bg-primary ${styles.paddingX} ${styles.flexCenter} ${styles.paddingY}`}>
       <SearchRecipe />
     </div>
-    <div id="contact-us" className={`${styles.boxWidth} bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+    <div id="contact-us" className={`${styles.boxWidth} bg-primary ${styles.paddingX} ${styles.flexCenter} ${styles.paddingY}`}>
       <ContactUs />
     </div>
-    <div className={`${styles.boxWidth} bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`${styles.boxWidth} bg-primary ${styles.paddingX} ${styles.flexCenter}  py-1 bg-dimSecondary`}>
       <Footer />
     </div>
   </div>

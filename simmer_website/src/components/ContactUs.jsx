@@ -63,7 +63,7 @@ const ContactUs = () => {
           
 
 
-      <form className="flex flex-col justify-center items-center gap-2" onSubmit={handleSubmit}>
+      <form className="flex flex-col justify-center items-center gap-2 " onSubmit={handleSubmit}>
         <input 
           type="text" 
           name="name"  
@@ -71,7 +71,7 @@ const ContactUs = () => {
           value={formData.name}  
           onChange={handleChange}  
           className="bg-transparent outline-none text-green placeholder-mutedGreen 
-            border-4 border-secondary rounded-t-lg w-full max-w-xl py-2 px-1"
+            border-4 border-secondary rounded-t-lg w-full max-w-3xl py-2 px-1"
         />
 
         <input 
@@ -81,7 +81,7 @@ const ContactUs = () => {
           value={formData.email}  
           onChange={handleChange}  
           className="bg-transparent outline-none text-green placeholder-mutedGreen 
-            border-4 border-secondary w-full max-w-xl py-2 px-1"
+            border-4 border-secondary w-full max-w-3xl py-2 px-1"
         />
 
         <textarea 
@@ -91,7 +91,7 @@ const ContactUs = () => {
           value={formData.message}  
           onChange={handleChange}  
           className="bg-transparent outline-none text-green placeholder-mutedGreen 
-            border-4 border-secondary rounded-b-lg w-full max-w-xl py-2 px-1"
+            border-4 border-secondary rounded-b-lg w-full max-w-3xl py-2 px-1"
         />
 
         
@@ -106,7 +106,7 @@ const ContactUs = () => {
         <button 
           type="submit"  
           className={`py-4 px-6 bg-secondary font-montserrat font-medium text-[18px] 
-            text-white outline-none rounded-full mr-5 hover:bg-opacity-80 transition-all
+            text-white outline-none rounded-full mt-2 mr-5 hover:bg-opacity-80 transition-all
             ${styles}`}
         >
           Submit

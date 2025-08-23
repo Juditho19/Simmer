@@ -41,7 +41,8 @@ const Hero = () => (
             <button className={`py-4 px-6 bg-secondary
               font-montserrat font-medium text-[18px] 
               text-white outline-none rounded-full mr-5
-              ${styles}`}>
+              ${styles} hover:bg-opacity-80 hover:scale-105
+              transition-all duration-300`}>
               Search Recipes
             </button>
           </a>
@@ -50,7 +51,8 @@ const Hero = () => (
             <button className={`py-4 px-6 bg-white
               font-montserrat font-medium text-[18px] 
               text-secondary outline-none rounded-full
-              ${styles}`}>
+              ${styles} hover:bg-gray-100 hover:scale-105
+              transition-all duration-300`}>
               Submit a Recipe
             </button>
           </a>
@@ -69,6 +71,8 @@ const Hero = () => (
           <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
           {/* gradient end */}
       </div>
+
+
 
       
 

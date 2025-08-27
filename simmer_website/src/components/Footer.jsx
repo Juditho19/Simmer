@@ -24,11 +24,10 @@ const Footer = () => {
     
     <div>
       <ul className="flex gap-4 justify-end items-center">
-      <li><a href="#"><img src={Facebook} alt="Facebook Logo" /></a></li>
-      <li><a href="#"><img src={Instagram} alt="Instagram Logo" /></a></li>
-      <li><a href="#"><img src={Twitter} alt="Twitter Logo" /></a></li>
-      
-    </ul>
+        <li><a href="#"><img src={Facebook} alt="Facebook Logo" /></a></li>
+        <li><a href="#"><img src={Instagram} alt="Instagram Logo" /></a></li>
+        <li><a href="#"><img src={Twitter} alt="Twitter Logo" /></a></li>
+      </ul>
     </div>
 
     

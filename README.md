@@ -42,8 +42,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Juditho19/Simmer.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
+- 
 ## My process
 
 ### Built with

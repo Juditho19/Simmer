@@ -41,8 +41,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Juditho19/Simmer.git)
-- 
+- Solution URL: [Solution](https://github.com/Juditho19/Simmer.git)
+- Live demo URL: [Live demo](https://simmer-recipe-finder.netlify.app)
+
 ## My process
 
 ### Built with
